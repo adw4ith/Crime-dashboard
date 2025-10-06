@@ -1,4 +1,4 @@
-\# 🧭 Crime Analysis Dashboard
+🧭 Crime Analysis Dashboard
 
 
 
@@ -132,6 +132,7 @@ MSc Data Science student at the University of Limerick
 
 
 If you found this project interesting, give it a ⭐ on GitHub!
+
 
 
 
