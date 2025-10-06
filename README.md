@@ -46,7 +46,7 @@ It’s designed for both casual exploration and deeper analytical insight into u
 
 |:-----------------:|:-----------------:|:----------------:|
 
-| !\[Trends](Screenshots/Screenshot%202025-10-06%20204459.png) | !\[Map](Screenshots/Screenshot%202025-10-06%20204601.png) | !\[Breakdown](Screenshots/Screenshot%202025-10-06%20204717.png) |
+| !\[Trends](Screenshots/Screenshot 2025-10-06 204459.png) | !\[Map](Screenshots/Screenshot 2025-10-06 204601.png) | !\[Breakdown](Screenshots/Screenshot 2025-10-06 204717.png) |
 
 
 
@@ -165,6 +165,7 @@ MSc Data Science student at the University of Limerick
 
 
 If you found this project interesting, give it a ⭐ on GitHub!
+
 
 
 
