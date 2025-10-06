@@ -4,7 +4,7 @@
 
 An interactive Shiny web application that visualizes and explores crime data in Chicago.  
 
-Built in \*\*R\*\* using \*\*Shiny\*\*, this dashboard helps uncover spatial and temporal patterns in urban crime — turning raw data into meaningful insights.
+Built in R using Shiny, this dashboard helps uncover spatial and temporal patterns in urban crime — turning raw data into meaningful insights.
 
 
 
@@ -12,21 +12,21 @@ Built in \*\*R\*\* using \*\*Shiny\*\*, this dashboard helps uncover spatial and
 
 
 
-\## 📊 Overview
+📊 Overview
 
 
 
-The \*\*Crime Analysis Dashboard\*\* provides an intuitive interface for users to:
+The Crime Analysis Dashboard provides an intuitive interface for users to:
 
 
 
-\- Explore trends in reported crimes over time  
+ - Explore trends in reported crimes over time  
 
-\- Visualize hotspots on an interactive map  
+ - Visualize hotspots on an interactive map  
 
-\- Filter by year, month, or type of crime  
+ - Filter by year, month, or type of crime  
 
-\- Compare categories such as theft, assault, burglary, and more  
+ - Compare categories such as theft, assault, burglary, and more  
 
 
 
@@ -38,7 +38,7 @@ It’s designed for both casual exploration and deeper analytical insight into u
 
 
 
-\## 🖼️ Dashboard Preview
+🖼️ Dashboard Preview
 
 
 
@@ -54,17 +54,17 @@ It’s designed for both casual exploration and deeper analytical insight into u
 
 
 
-\## 🧠 Features
+🧠 Features
 
 
 
-\- \*\*Interactive Filtering:\*\* Adjust crime type, time range, or region dynamically  
+ - Interactive Filtering: Adjust crime type, time range, or region dynamically  
 
-\- \*\*Visual Insights:\*\* Time-series graphs, maps, and bar plots for instant pattern recognition  
+ - Visual Insights: Time-series graphs, maps, and bar plots for instant pattern recognition  
 
-\- \*\*Spatial Exploration:\*\* Map view powered by `leaflet` for real-time zoom and hover data  
+ - Spatial Exploration: Map view powered by `leaflet` for real-time zoom and hover data  
 
-\- \*\*Data Transparency:\*\* Raw data table included for detailed inspection  
+ - Data Transparency: Raw data table included for detailed inspection  
 
 
 
@@ -72,99 +72,67 @@ It’s designed for both casual exploration and deeper analytical insight into u
 
 
 
-\## 📂 Project Structure
+📂 Project Structure
 
 
 
 Crime-dashboard/
 
-├── Crimes\_2023.csv # Main dataset
+ ─ Crimes\_2023.csv # Main dataset
 
-├── dashboard.R # Shiny app code (UI + server)
+ ─ dashboard.R # Shiny app code (UI + server)
 
-├── crime.Rproj # RStudio project file
+ ─ crime.Rproj # RStudio project file
 
-├── Report (1).pdf # Supporting project documentation
+ ─ Report (1).pdf # Supporting project documentation
 
-├── Screenshots/ # Dashboard screenshots
+ ─ Screenshots/ # Dashboard screenshots
 
-└── README.md # You’re reading it!
-
-
-
-\## ⚙️ Installation \& Running Locally
+ ─ README.md # You’re reading it!
 
 
 
-1\. \*\*Clone this repository:\*\*
+⚙️ Installation \& Running Locally
 
+1\. Clone this repository:
 &nbsp;  ```bash
-
 &nbsp;  git clone https://github.com/adw4ith/Crime-dashboard.git
-
 &nbsp;  cd Crime-dashboard
-
 Install required R packages:
-
 r
-
 install.packages(c("shiny", "shinydashboard", "leaflet", "dplyr", "ggplot2"))
 
 Run the app in R or RStudio:
 
-
-
 shiny::runApp("dashboard.R")
-
+ 
 The app will open automatically in your browser.
-
-
 
 🗺️ Data Source
 
 The data is derived from Chicago crime reports (2023) — publicly available via the City of Chicago Data Portal.
-
 It includes fields such as crime type, location, date, and geographic coordinates (block-level).
-
-
 
 🚀 Future Improvements
 
-
-
 * Here are some ideas to extend the project:
-
-
-
 * Add multi-year data for long-term trend analysis
-
-
-
 * Integrate demographic or socioeconomic context
-
-
-
 * Build predictive models for crime forecasting
-
-
-
 * Deploy publicly via shinyapps.io
 
 
 
 👨‍💻 Author
 
-
-
 Adwaith
-
 MSc Data Science student at the University of Limerick
-
 📍 Focus: Data visualization, analytics, and urban informatics
 
 
 
 If you found this project interesting, give it a ⭐ on GitHub!
+
 
 
 
